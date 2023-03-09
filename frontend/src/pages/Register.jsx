@@ -10,7 +10,7 @@ export const Register = () => {
         e.preventDefault();
  
         try {
-            await axios.post('http://localhost:3000/auth/register', {
+            await axios.post('http://localhost:3001/auth/register', {
                 username, password
             });
             alert("Registration completed. Now login")

@@ -15,6 +15,6 @@ app.use("/recipes", recipesRouter);
 
 mongoose.connect("mongodb+srv://mjfung1:mongoDB123@recipe.eebkm9e.mongodb.net/recipesApp?retryWrites=true&w=majority")
 
-app.listen(3000, () => {
-    console.log("Listening on port 3000");
+app.listen(3001, () => {
+    console.log("Listening on port 3001");
 }); 
